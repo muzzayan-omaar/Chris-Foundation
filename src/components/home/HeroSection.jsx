@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {Link} from "react-router-dom";
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Heart, X } from 'lucide-react';
-import heroVideo from '../../assets/vid.mp4';   
+import heroVideo from '../../assets/vid3.mp4';   
 
 const Home = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);

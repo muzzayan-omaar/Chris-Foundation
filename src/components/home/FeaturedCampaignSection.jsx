@@ -83,7 +83,7 @@ const FeaturedCampaignSection = () => {
               <motion.img
                 whileHover={{ scale: 1.08 }}
                 transition={{ duration: .7 }}
-                src="https://images.unsplash.com/photo-1516302752625-fcc3c50ae61d?w=1600&q=80"
+                src="https://res.cloudinary.com/diszilwhc/image/upload/v1782609398/15_yb4pje.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />

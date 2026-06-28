@@ -55,41 +55,12 @@ const Navbar = () => {
             Our Programs
             {isActive('/programs') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
           </Link>
+           <Link to="/blog" className={`relative py-1 hover:text-accent transition-colors ${isActive('/blog') ? 'text-accent' : ''}`}>
+            Our Stories
+            {isActive('/blog') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
+          </Link>
 
-          {/* Explore Dropdown */}
-          <div 
-            className="relative group"
-            onMouseEnter={() => safeOpen("explore")}
-            onMouseLeave={safeClose}
-          >
-            <button className="flex items-center gap-1 hover:text-accent transition-colors py-2">
-              Explore 
-              <ChevronDown size={16} />
-            </button>
-
-            <AnimatePresence>
-              {activeDropdown === "explore" && (
-                <motion.div
-                  initial={{ opacity: 0, y: 15 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="absolute top-[110%] left-0 w-80 bg-white rounded-2xl shadow-xl border border-gray-100 p-5 mt-6 z-50"
-                >
-                  <div className="space-y-4">
-                    {exploreItems.map((item, i) => (
-                      <a key={i} href={item.href} className="flex gap-4 p-3 rounded-xl hover:bg-gray-50 transition-all group">
-                        <div className="text-primary mt-0.5">{item.icon}</div>
-                        <div>
-                          <div className="font-semibold text-dark group-hover:text-accent transition">{item.title}</div>
-                          <div className="text-sm text-gray-500">{item.desc}</div>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+         
 
           {/* How to Support Dropdown */}
           <div 
@@ -185,8 +156,7 @@ const Navbar = () => {
               <a href="/" className="text-gray-700 hover:text-accent">Home</a>
               <a href="/about" className="text-gray-700 hover:text-accent">Our Mission</a>
               <a href="/programs" className="text-gray-700 hover:text-accent">Our Programs</a>
-              <a href="#stories" className="text-gray-700 hover:text-accent">Our Stories</a>
-              <a href="#progress" className="text-gray-700 hover:text-accent">Progress</a>
+              <a href="/blog" className="text-gray-700 hover:text-accent">Our Stories</a>
               <Link to="/donate" className="bg-accent text-white py-4 rounded-2xl text-center font-semibold mt-4">Donate Now</Link>
               <a href="/volunteer" className="border border-gray-300 text-gray-700 py-4 rounded-2xl text-center font-semibold">Volunteer</a>
             </div>

@@ -22,21 +22,21 @@ const Donate = () => {
     {
       id: 1,
       title: "Mama Sarah's New Beginning",
-      image: "https://images.unsplash.com/photo-1582213782179-c5c7c0b8c3b0",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610099/20151118T1042-0260-CNS-UGANDA-FRANCIS-NALUKOLONGO-HOME_800_cy5qxq.jpg",
       shortDesc: "From hunger to hope — how monthly donations changed her life.",
       fullStory: "Mama Sarah, 78, used to go days without proper meals. Thanks to consistent donations, she now receives nutritious food, medicine, and regular visits. 'I can smile again,' she says. Your support gave her dignity back."
     },
     {
       id: 2,
       title: "Baba Joseph's Mobility",
-      image: "https://images.unsplash.com/photo-1559757148-5e995136c87b",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609401/web_KCSE_2_qvi9ma.jpg",
       shortDesc: "A simple walking aid restored his independence.",
       fullStory: "Baba Joseph had lost hope after a fall. A donation-funded mobility aid and physiotherapy allowed him to walk again and visit his grandchildren. 'I feel alive once more,' he shared with tears."
     },
     {
       id: 3,
       title: "Music Therapy Miracle",
-      image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610100/Yunia-Byabazaire-Adyeeri-95-the-composer-of-Uganda-Red-Cross-Society-anthem-1210x617_vic0yj.jpg",
       shortDesc: "How music brought joy back to 80 elders.",
       fullStory: "Our music therapy program, funded by generous donors, has brought smiles and memories to over 80 elders. Many who hadn't spoken in months began singing old songs. The healing power of music is real."
     }

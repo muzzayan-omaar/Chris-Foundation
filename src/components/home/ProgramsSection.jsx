@@ -16,7 +16,7 @@ const projects = [
     category: "food",
     title: "Monthly Meal Distribution",
     location: "Kampala Elderly Home",
-    image: "https://images.unsplash.com/photo-1594737625785-6c2e7f0f3e8e?w=1200&q=80",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609399/ths_11_slider_3_img_2_fpy9mt.webp",
     date: "March 2025",
     fullDescription: "We delivered nutritious hot meals and food packages to 187 elderly residents who struggle with mobility and cooking.",
     summaryPoints: [
@@ -37,7 +37,7 @@ const projects = [
     category: "food",
     title: "Nutrition Workshop",
     location: "Nakawa Community Center",
-    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609398/15_yb4pje.webp",
     date: "February 2025",
     fullDescription: "Interactive workshop teaching elderly participants how to prepare affordable, nutritious meals using locally available ingredients.",
     summaryPoints: [
@@ -58,7 +58,7 @@ const projects = [
     category: "medical",
     title: "Free Health Camp",
     location: "Wakiso District",
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609400/Medical-Outreach-5_uifcuv.jpg",
     date: "April 2025",
     fullDescription: "Comprehensive medical outreach providing free health screenings, consultations, and medication to elderly residents.",
     summaryPoints: [
@@ -79,7 +79,7 @@ const projects = [
     category: "home",
     title: "Safe Home Makeover",
     location: "Nansana",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&q=80",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609401/web_KCSE_2_qvi9ma.jpg",
     date: "April 2025",
     fullDescription: "Complete home renovation focused on safety and dignity for elderly residents living alone.",
     summaryPoints: [
@@ -96,7 +96,7 @@ const projects = [
     category: "community",
     title: "Senior Social Gathering",
     location: "Lubaga Community Hall",
-    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&q=80",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609400/IMG_0646_durau6.jpg",
     date: "April 2025",
     fullDescription: "Monthly social events designed to reduce loneliness and build meaningful connections among seniors.",
     summaryPoints: [

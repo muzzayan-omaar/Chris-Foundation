@@ -26,11 +26,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-6 text-lg text-white">Quick Links</h4>
             <div className="space-y-4 text-gray-400">
-              <a href="#about" className="block hover:text-white transition">Our Mission</a>
-              <a href="#programs" className="block hover:text-white transition">Our Programs</a>
-              <a href="#stories" className="block hover:text-white transition">Success Stories</a>
-              <a href="#progress" className="block hover:text-white transition">Project Progress</a>
-              <a href="/blog" className="block hover:text-white transition">Blog</a>
+              <a href="/about" className="block hover:text-white transition">Our Mission</a>
+              <a href="/programs" className="block hover:text-white transition">Our Programs</a>
+              <a href="/blog" className="block hover:text-white transition">Success Stories</a>
             </div>
           </div>
 

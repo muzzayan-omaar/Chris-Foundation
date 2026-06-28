@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {Link} from "react-router-dom";
 import { Heart, Users, Calendar, Award, ArrowRight, ChevronDown } from 'lucide-react';
-import heroVideo from '../assets/vid.mp4'; // Your video
+import heroVideo from '../assets/vid3.mp4'; // Your video
 
 const Volunteer = () => {
   const [formData, setFormData] = useState({
@@ -36,12 +36,12 @@ const Volunteer = () => {
     {
       title: "How I Found Purpose Volunteering",
       excerpt: "Sarah's journey from busy professional to making meaningful connections with elders.",
-      image: "https://images.unsplash.com/photo-1559757148-5e995136c87b",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610100/Yunia-Byabazaire-Adyeeri-95-the-composer-of-Uganda-Red-Cross-Society-anthem-1210x617_vic0yj.jpg",
     },
     {
       title: "The Joy of Music Therapy",
       excerpt: "Michael shares how leading music sessions changed both his life and the elders'.",
-      image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610100/Uganda-Elderly-Outreach-Kachotara_sugtoe.jpg",
     }
   ];
 
