@@ -157,13 +157,35 @@ const Navbar = () => {
             className="md:hidden bg-white border-t"
           >
             <div className="px-6 py-8 flex flex-col gap-6 text-lg">
-              <a href="/" className="text-gray-700 hover:text-accent">Home</a>
-              <a href="/about" className="text-gray-700 hover:text-accent">Our Mission</a>
-              <a href="/programs" className="text-gray-700 hover:text-accent">Our Programs</a>
-              <a href="/blog" className="text-gray-700 hover:text-accent">Our Stories</a>
-              <Link to="/donate" className="bg-accent text-white py-4 rounded-2xl text-center font-semibold mt-4">Donate Now</Link>
-              <a href="/volunteer" className="border border-gray-300 text-gray-700 py-4 rounded-2xl text-center font-semibold">Volunteer</a>
-            </div>
+             <Link to="/" className="text-gray-700 hover:text-accent">
+  Home
+</Link>
+
+<Link to="/about" className="text-gray-700 hover:text-accent">
+  Our Mission
+</Link>
+
+<Link to="/programs" className="text-gray-700 hover:text-accent">
+  Our Programs
+</Link>
+
+<Link to="/blog" className="text-gray-700 hover:text-accent">
+  Our Stories
+</Link>
+
+<Link
+  to="/donate"
+  className="bg-accent text-white py-4 rounded-2xl text-center font-semibold mt-4"
+>
+  Donate Now
+</Link>
+
+<Link
+  to="/volunteer"
+  className="border border-gray-300 text-gray-700 py-4 rounded-2xl text-center font-semibold"
+>
+  Volunteer
+</Link> </div>
           </motion.div>
         )}
       </AnimatePresence>
