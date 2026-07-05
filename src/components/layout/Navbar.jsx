@@ -83,13 +83,17 @@ const Navbar = () => {
                 >
                   <div className="space-y-4">
                     {supportItems.map((item, i) => (
-                      <a key={i} href={item.href} className="flex gap-4 p-3 rounded-xl hover:bg-gray-50 transition-all group">
+                     <Link
+  key={i}
+  to={item.href}
+  className="flex gap-4 p-3 rounded-xl hover:bg-gray-50 transition-all group"
+>
                         <div className="text-primary mt-0.5">{item.icon}</div>
                         <div>
                           <div className="font-semibold text-dark group-hover:text-accent transition">{item.title}</div>
                           <div className="text-sm text-gray-500">{item.desc}</div>
                         </div>
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </motion.div>
