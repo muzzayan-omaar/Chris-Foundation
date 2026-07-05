@@ -33,8 +33,8 @@ const Newsletter = () => {
           </h2>
 
           <p className="text-gray-600 text-lg max-w-md mx-auto mb-10">
-            Get inspiring stories from our programs, impact updates, and meaningful ways you can help — 
-            all delivered gently to your inbox.
+            Just as my grandmother struggled to raise me after losing my parents at 13, many elders and orphans today need the same compassion. 
+            Get inspiring stories from our programs, impact updates, and meaningful ways you can help.
           </p>
 
           {!subscribed ? (
@@ -68,7 +68,7 @@ const Newsletter = () => {
               className="text-emerald-600 font-medium text-xl py-6 flex items-center justify-center gap-3"
             >
               <Sparkles className="w-6 h-6" />
-              Thank you! You’re now part of our family ❤️
+              Thank you! You’re now part of our family 
             </motion.div>
           )}
 

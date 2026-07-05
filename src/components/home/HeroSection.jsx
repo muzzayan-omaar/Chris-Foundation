@@ -41,13 +41,13 @@ const Home = () => {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tighter">
-                Every Elder Deserves<br />
+                Every Elder &amp; Orphan Deserves<br />
                 Dignity, Care &amp; Love
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-200 max-w-lg leading-relaxed">
-                We are committed to improving the lives of elderly people in Uganda through care, 
-                compassion, and community support.
+                After losing my parents at 13, I was raised by my grandmother who struggled to send me to school. 
+                Today, we help elders and children who face the same hardships I once did.
               </p>
 
               {/* Buttons */}

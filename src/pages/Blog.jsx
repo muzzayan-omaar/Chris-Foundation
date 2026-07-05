@@ -8,7 +8,7 @@ const Blog = () => {
   const [activeTopic, setActiveTopic] = useState('All');
   const [selectedPost, setSelectedPost] = useState(null);
 
-  const topics = ['All', 'Impact Stories', 'Programs', 'Elder Care', 'Community', 'Music Therapy'];
+  const topics = ['All', 'Impact Stories', 'Programs', 'Elder Care', 'Orphans', 'Community', 'Music Therapy'];
 
   const posts = [
     {
@@ -35,13 +35,13 @@ const Blog = () => {
     },
     {
       id: 3,
-      title: "The Importance of Dignity in Elder Care",
-      excerpt: "Why treating our elders with respect is the foundation of a compassionate society.",
+      title: "Supporting Orphans Who Lost Their Parents",
+      excerpt: "Stories of children who, like Chris Evans at 13, are being raised by struggling grandparents.",
       image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610099/20151118T1042-0260-CNS-UGANDA-FRANCIS-NALUKOLONGO-HOME_800_cy5qxq.jpg",
-      category: "Elder Care",
-      date: "June 18, 2026",
-      readTime: "12 min",
-      fullStory: "Dignity is not a luxury. It is a right. Our programs focus on treating every elder with the respect and care they deserve. This approach has led to remarkable improvements in mental health and community connection.",
+      category: "Orphans",
+      date: "June 20, 2026",
+      readTime: "9 min",
+      fullStory: "After losing his parents at 13, Chris Evans was raised by his grandmother. Today, we support orphans and elders who face the same challenges.",
       featured: false
     },
     {

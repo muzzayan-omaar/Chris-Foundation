@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Heart, Users, Award, Handshake, Building2, ArrowRight } from 'lucide-react';
 
 const PartnerWithUs = () => {
@@ -71,7 +71,7 @@ const PartnerWithUs = () => {
                 </h1>
 
                 <p className="text-xl text-gray-200 max-w-lg">
-                    Your organization can help us expand care, medical support, and joy to more elders across Uganda.
+                    Just as my grandmother struggled to raise me after losing my parents at 13, many elders and orphans today need the same compassion. Your organization can help us expand care to more vulnerable lives.
                 </p>
 
                 <motion.button
@@ -90,7 +90,7 @@ const PartnerWithUs = () => {
                     <div className="flex gap-6">
                     <div className="text-5xl font-bold text-accent">1,200+</div>
                     <div className="pt-2">
-                        <div className="font-medium">Elders Supported</div>
+                        <div className="font-medium">Elders & Orphans Supported</div>
                         <div className="text-sm text-gray-300">Through our partners</div>
                     </div>
                     </div>

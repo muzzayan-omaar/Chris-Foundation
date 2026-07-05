@@ -9,17 +9,17 @@ import {
 const stats = [
   {
     icon: Users,
-    value: "4,280+",
-    label: "Elders Supported",
+    value: "1,200+",
+    label: "Elders & Orphans Supported",
   },
   {
     icon: Utensils,
-    value: "96,000+",
+    value: "45,000+",
     label: "Meals Served",
   },
   {
     icon: Stethoscope,
-    value: "1,850+",
+    value: "850+",
     label: "Medical Visits",
   },
   {
@@ -35,7 +35,6 @@ const ImpactStatsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -53,14 +52,11 @@ const ImpactStatsSection = () => {
           </h2>
 
           <p className="text-gray-600 mt-6 max-w-2xl mx-auto text-lg">
-            Through the generosity of our supporters, we've been able to
-            restore dignity, provide care, and bring hope to thousands of
-            elderly people.
+            From food and healthcare to emotional support and shelter, we are committed to restoring dignity for elders and orphans across Uganda.
           </p>
         </motion.div>
 
         {/* Stats */}
-
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
 
           {stats.map((item, index) => {

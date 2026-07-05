@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import {Link} from "react-router-dom";
-import { Heart, Users, Calendar, Award, ArrowRight, ChevronDown } from 'lucide-react';
+import { Heart, Users, Award, Calendar, ArrowRight, ChevronDown } from 'lucide-react';
 import heroVideo from '../assets/vid3.mp4'; // Your video
 
 const Volunteer = () => {
@@ -35,7 +34,7 @@ const Volunteer = () => {
   const volunteerStories = [
     {
       title: "How I Found Purpose Volunteering",
-      excerpt: "Sarah's journey from busy professional to making meaningful connections with elders.",
+      excerpt: "Sarah's journey from busy professional to making meaningful connections with elders and orphans.",
       image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610100/Yunia-Byabazaire-Adyeeri-95-the-composer-of-Uganda-Red-Cross-Society-anthem-1210x617_vic0yj.jpg",
     },
     {
@@ -56,7 +55,7 @@ const Volunteer = () => {
     },
     {
       q: "Is there a background check?",
-      a: "Yes, for safety of our elders. We cover the cost."
+      a: "Yes, for safety of our elders and orphans. We cover the cost."
     },
   ];
 
@@ -99,11 +98,10 @@ const Volunteer = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-200 max-w-lg leading-relaxed">
-                Your presence can bring dignity, joy, and companionship to elderly Ugandans who need it most.
+                Just as my grandmother struggled to raise me after losing my parents at 13, many elders and orphans today need the same compassion. Your presence can bring dignity, joy, and companionship.
               </p>
 
-                
-                <motion.button
+              <motion.button
                 href="#form"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
@@ -112,7 +110,6 @@ const Volunteer = () => {
                 Join Our Volunteer Family
                 <ArrowRight />
               </motion.button>
-              
             </div>
           </div>
         </div>

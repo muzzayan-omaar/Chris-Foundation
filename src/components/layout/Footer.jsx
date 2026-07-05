@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-xs">
-              Restoring dignity, health, and joy to elderly Ugandans through care, music, and community.
+              Restoring dignity, health, and joy to elderly Ugandan Orphans through care, music, and community.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Stay Connected */}
           <div>
             <h4 className="font-semibold mb-6 text-lg text-white">Stay Connected</h4>
-            <p className="text-gray-400 mb-6">Get updates on our impact and stories from the elders.</p>
+            <p className="text-gray-400 mb-6">Get updates on our impact and stories from the elders and orphans.</p>
             
             <div className="flex gap-2">
               <input 

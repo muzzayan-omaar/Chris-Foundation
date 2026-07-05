@@ -19,16 +19,16 @@ const [paymentMethod, setPaymentMethod] = useState("mobile");
     {
       title: "Home Care & Nutrition",
       icon: Heart,
-      desc: "Regular home visits, nutritious meals, and daily support for vulnerable elders.",
+      desc: "Regular home visits, nutritious meals, and daily support for vulnerable elders and orphans — just as my grandmother struggled to feed me after losing my parents at 13.",
       progress: 85,
-      impact: "1,200 elders fed daily",
+      impact: "1,200 elders & orphans fed daily",
       status: "Ongoing",
       color: "from-red-500 to-orange-500"
     },
     {
       title: "Medical & Health Support",
       icon: Award,
-      desc: "Medicine, checkups, hospital transport, and emergency medical aid.",
+      desc: "Medicine, checkups, hospital transport, and emergency medical aid for elders and orphans who lack access to basic healthcare.",
       progress: 70,
       impact: "850+ medical aids delivered",
       status: "Ongoing",
@@ -37,16 +37,16 @@ const [paymentMethod, setPaymentMethod] = useState("mobile");
     {
       title: "Music Therapy",
       icon: Users,
-      desc: "Weekly sessions that bring emotional healing, joy, and memory revival.",
+      desc: "Weekly sessions that bring emotional healing, joy, and memory revival — helping elders and children reconnect with hope.",
       progress: 95,
-      impact: "500 elders reached",
+      impact: "500 elders & orphans reached",
       status: "Ongoing",
       color: "from-purple-500 to-pink-500"
     },
     {
       title: "Community Connection",
       icon: Target,
-      desc: "Events, gatherings, and social programs to reduce isolation.",
+      desc: "Events, gatherings, and social programs to reduce isolation for elders and orphans who feel forgotten.",
       progress: 60,
       impact: "Monthly community events",
       status: "Upcoming",

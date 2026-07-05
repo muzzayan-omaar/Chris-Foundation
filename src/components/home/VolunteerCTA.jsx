@@ -1,12 +1,14 @@
 import { motion } from "framer-motion";
 import { Users, Heart, ArrowRight, Clock, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const VolunteerCTA = () => {
   return (
-    <section className="relative py-28 bg-gradient-to-br from-accent via-rose-600 to-purple-700 text-white overflow-hidden">
+    <section className="relative py-28 bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-white overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(at_top_right,#ffffff15_0%,transparent_50%)]" />
-      
+      <div className="absolute bottom-0 left-1/3 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
+
       <div className="max-w-6xl mx-auto px-6 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Side - Content */}
@@ -21,7 +23,8 @@ const VolunteerCTA = () => {
             </h2>
 
             <p className="text-xl text-white/90 max-w-lg">
-              Join our family of volunteers and bring warmth, dignity, and joy into the lives of elderly people who need it most.
+              Just as my grandmother struggled to raise me after losing my parents at 13, 
+              many elders and orphans today need the same compassion. Your time can be their light.
             </p>
 
             {/* Stats */}
@@ -59,7 +62,6 @@ const VolunteerCTA = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                
               <motion.a
                 href="/volunteer"
                 whileHover={{ scale: 1.04 }}

@@ -28,10 +28,10 @@ const Donate = () => {
     },
     {
       id: 2,
-      title: "Baba Joseph's Mobility",
-      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609401/web_KCSE_2_qvi9ma.jpg",
-      shortDesc: "A simple walking aid restored his independence.",
-      fullStory: "Baba Joseph had lost hope after a fall. A donation-funded mobility aid and physiotherapy allowed him to walk again and visit his grandchildren. 'I feel alive once more,' he shared with tears."
+      title: "Supporting Orphans Like Chris Evans",
+      image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782610099/helping-needy-ugandans_b05a0x.jpg",
+      shortDesc: "Children who, like Chris Evans at 13, are being raised by struggling grandparents.",
+      fullStory: "After losing his parents at 13, Chris Evans was raised by his grandmother. Today, we support orphans and elders who face the same challenges. Your donation helps provide food, education, and care."
     },
     {
       id: 3,
@@ -66,11 +66,11 @@ const Donate = () => {
   const faqs = [
     {
       q: "Where does my donation go?",
-      a: "100% of your donation goes directly to supporting elderly Ugandans with food, medical care, home visits, and community programs. We operate with full transparency."
+      a: "100% of your donation goes directly to supporting elderly Ugandans and orphans with food, medical care, home visits, and community programs. We operate with full transparency."
     },
     {
       q: "Can I donate monthly?",
-      a: "Yes! Monthly donations provide consistent support and help us plan long-term programs for the elders."
+      a: "Yes! Monthly donations provide consistent support and help us plan long-term programs for the elders and orphans."
     },
     {
       q: "Is my donation tax deductible?",
@@ -78,7 +78,7 @@ const Donate = () => {
     },
     {
       q: "How can I see the impact of my donation?",
-      a: "We send periodic updates, photos, and stories from the elders your donation helped. You can also follow our progress reports."
+      a: "We send periodic updates, photos, and stories from the elders and orphans your donation helped. You can also follow our progress reports."
     },
     {
       q: "What payment methods do you accept?",
@@ -119,7 +119,7 @@ const Donate = () => {
             Your Gift Brings Life-Changing Hope
           </h1>
           <p className="text-xl text-gray-200">
-            Every donation directly supports elderly Ugandans with food, medicine, care, and dignity.
+            Every donation directly supports elderly Ugandans and orphans with food, medicine, care, and dignity.
           </p>
         </div>
       </div>

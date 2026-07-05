@@ -16,9 +16,9 @@ const projects = [
     category: "food",
     title: "Monthly Meal Distribution",
     location: "Kampala Elderly Home",
-    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609399/ths_11_slider_3_img_2_fpy9mt.webp",
+    image: "https://res.cloudinary.com/diszilwhc/image/upload/v1782609398/15_yb4pje.webp",
     date: "March 2025",
-    fullDescription: "We delivered nutritious hot meals and food packages to 187 elderly residents who struggle with mobility and cooking.",
+    fullDescription: "We delivered nutritious hot meals and food packages to 187 elderly residents who struggle with mobility and cooking. Just as my grandmother struggled to feed me after losing my parents at 13, we now stand with elders who face hunger daily.",
     summaryPoints: [
       "187 beneficiaries reached",
       "Fresh vegetables and proteins included in every pack",
@@ -52,7 +52,6 @@ const projects = [
     ],
     achievements: "85% of attendees reported using the learned recipes at home"
   },
-  // Add more projects with similar structure...
   {
     id: 4,
     category: "medical",
@@ -73,7 +72,6 @@ const projects = [
     ],
     achievements: "Partnered with 12 volunteer doctors and nurses"
   },
-  // ... (I've kept only a few for brevity - you can expand)
   {
     id: 6,
     category: "home",
@@ -121,7 +119,7 @@ const ProgramsGallery = () => {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header & Filters (unchanged) */}
+        {/* Header & Filters */}
         <div className="text-center mb-16">
           <span className="uppercase tracking-[0.25em] text-accent font-semibold text-sm">Our Impact</span>
           <h2 className="text-5xl font-bold mt-4 text-gray-900">Programs Gallery</h2>
@@ -148,7 +146,7 @@ const ProgramsGallery = () => {
           ))}
         </div>
 
-        {/* Gallery Grid - Unchanged Structure */}
+        {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <motion.div

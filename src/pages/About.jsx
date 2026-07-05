@@ -34,7 +34,7 @@ const About = () => {
         
         <div className="relative z-10 text-center px-6 max-w-3xl text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Story</h1>
-          <p className="text-2xl text-gray-200">Restoring dignity and joy to elderly Ugandans, one act of love at a time.</p>
+          <p className="text-2xl text-gray-200">Restoring dignity and joy to elderly Ugandans and orphans, one act of love at a time.</p>
         </div>
       </div>
 
@@ -52,10 +52,10 @@ const About = () => {
             <div className="p-12 md:p-16 flex flex-col justify-center">
               <h2 className="text-4xl font-bold mb-6">Meet Our Founder</h2>
               <p className="text-lg text-gray-700 mb-8">
-                Chris Evans, a passionate musician and community leader, founded this organization after witnessing the struggles of elderly people in his village. 
-                Many were living in isolation, without proper food or medical care. Moved by their stories, he started the foundation in 2022.
+                Chris Evans, a passionate musician and community leader, founded this organization after his own experience of losing his parents at 13 and being raised by his struggling grandmother. 
+                That personal journey inspired him to help elders and orphans who face similar hardships today.
               </p>
-              <p className="italic text-gray-600">"Every elder deserves to be seen, heard, and loved in their golden years."</p>
+              <p className="italic text-gray-600">"Every elder and orphan deserves to be seen, heard, and loved in their golden years."</p>
               <p className="mt-4 text-sm font-medium text-accent">— Chris Evans, Founder</p>
             </div>
           </div>
@@ -71,9 +71,9 @@ const About = () => {
                 <Heart size={20} />
                 <span className="font-semibold tracking-widest text-sm">OUR PURPOSE</span>
               </div>
-              <h2 className="text-5xl font-bold leading-tight mb-8">We exist to restore dignity to every elder.</h2>
+              <h2 className="text-5xl font-bold leading-tight mb-8">We exist to restore dignity to every elder and orphan.</h2>
               <p className="text-xl text-gray-600">
-                Through compassionate care, medical support, and community connection, we ensure no senior is left behind.
+                Through compassionate care, medical support, and community connection, we ensure no senior or child is left behind.
               </p>
             </div>
           </div>
@@ -88,8 +88,8 @@ const About = () => {
               </div>
               
               <p className="text-2xl leading-tight text-gray-800">
-                A Uganda where every elder is cherished, respected, and surrounded by care — 
-                living their final years with joy, dignity, and a strong sense of belonging.
+                A Uganda where every elder and orphan is cherished, respected, and surrounded by care — 
+                living their years with joy, dignity, and a strong sense of belonging.
               </p>
               
               <div className="mt-12 pt-8 border-t border-gray-100 text-sm text-gray-500">
@@ -164,7 +164,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">Our Journey</h2>
         <div className="space-y-12">
           {[
-            { year: "2022", event: "Foundation founded by Chris Evans after seeing elderly struggles." },
+            { year: "2022", event: "Foundation founded by Chris Evans after his own experience of vulnerability." },
             { year: "2023", event: "First 200 elders supported with food and medical aid." },
             { year: "2024", event: "Music Therapy program launched, reaching 500 elders." },
             { year: "2025", event: "Expanded to 12 districts across Uganda." },
@@ -196,7 +196,7 @@ const About = () => {
                 <div className="space-y-12">
                   {[
                     { label: "Districts Across Uganda", value: 12, max: 12 },
-                    { label: "Elders Supported", value: 1200, max: 1500 },
+                    { label: "Elders & Orphans Supported", value: 1200, max: 1500 },
                     { label: "Meals Provided", value: 45000, max: 60000 },
                     { label: "Medical Aids Delivered", value: 850, max: 1000 },
                   ].map((item, i) => (
@@ -222,7 +222,7 @@ const About = () => {
               <h3 className="text-3xl font-bold mb-10">Our Key Programs</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 {[
-                  { title: "Home Care & Nutrition", desc: "Regular home visits, nutritious meals, and daily support for vulnerable elders." },
+                  { title: "Home Care & Nutrition", desc: "Regular home visits, nutritious meals, and daily support for vulnerable elders and orphans." },
                   { title: "Medical & Health Support", desc: "Medicine, checkups, hospital transport, and emergency medical aid." },
                   { title: "Music Therapy", desc: "Weekly sessions that bring emotional healing, joy, and memory revival." },
                   { title: "Community Connection", desc: "Events, gatherings, and social programs to reduce isolation." }
