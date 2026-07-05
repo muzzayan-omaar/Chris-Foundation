@@ -84,16 +84,13 @@ const FounderSection = () => {
             />
 
             <blockquote className="text-3xl lg:text-4xl font-bold leading-tight text-gray-900">
-              "After losing my parents at 13, I was raised by my grandfather who struggled to send me to school. 
-              Today, we help elders and children who face the same hardships I once did."
+              "A Ugandan musician with multiple national awards, Chris Evans founded this organization after his own experience of vulnerability."
             </blockquote>
 
             <p className="mt-8 text-gray-600 text-lg leading-8">
-              My grandfather (Mr. Kaweesi) took me to Masooli Secondary School in Kasangati. 
-              The headmaster, Mr. Kakulira Ernest, heard his plea and enrolled me as a school dependant. 
-              In return, I did manual jobs — farming, building class blocks, brick laying, fetching water — to pay for my education. 
-              That experience shaped me. Now, through this foundation, we provide food, healthcare, emotional support, and shelter 
-              to elders and orphans who need it most.
+              After losing his parents at 13, he was raised by his grandmother who struggled to send him to school. 
+              She took him to Masooli Secondary School in Kasangati, where the headmaster, Mr. Kakulira Ernest, heard her plea and enrolled him as a school dependant. 
+              In return, Chris did manual jobs — farming, building class blocks, brick laying — to pay for his education.
             </p>
 
             <div className="mt-10">
@@ -102,7 +99,7 @@ const FounderSection = () => {
               </h4>
 
               <p className="text-accent font-medium mt-1">
-                Founder & Patron
+                Award-winning Musician & Founder
               </p>
             </div>
 
