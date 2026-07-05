@@ -23,7 +23,7 @@ const VolunteerCTA = () => {
             </h2>
 
             <p className="text-xl text-white/90 max-w-lg">
-              Just as my grandmother struggled to raise me after losing my parents at 13, 
+              Just as my grandfather struggled to raise me after losing my parents at 13, 
               many elders and orphans today need the same compassion. Your time can be their light.
             </p>
 

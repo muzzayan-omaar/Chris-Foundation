@@ -46,7 +46,7 @@ const Home = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-200 max-w-lg leading-relaxed">
-                After losing my parents at 13, I was raised by my grandmother who struggled to send me to school. 
+                After losing my parents at 13, I was raised by my grandfather who struggled to send me to school. 
                 Today, we help elders and children who face the same hardships I once did.
               </p>
 

@@ -32,10 +32,6 @@ const Newsletter = () => {
             Stay Connected With Us
           </h2>
 
-          <p className="text-gray-600 text-lg max-w-md mx-auto mb-10">
-            Just as my grandmother struggled to raise me after losing my parents at 13, many elders and orphans today need the same compassion. 
-            Get inspiring stories from our programs, impact updates, and meaningful ways you can help.
-          </p>
 
           {!subscribed ? (
             <motion.form 

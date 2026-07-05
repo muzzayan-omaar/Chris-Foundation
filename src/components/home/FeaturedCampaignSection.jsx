@@ -63,7 +63,7 @@ const FeaturedCampaignSection = () => {
           </h2>
 
           <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
-            Just as my grandmother struggled to raise me after losing my parents at 13, 
+            Just as my grandfather struggled to raise me after losing my parents at 13, 
             we now stand with elders and orphans who face the same hardship. 
             Your support turns vulnerability into strength.
           </p>

@@ -52,7 +52,7 @@ const About = () => {
             <div className="p-12 md:p-16 flex flex-col justify-center">
               <h2 className="text-4xl font-bold mb-6">Meet Our Founder</h2>
               <p className="text-lg text-gray-700 mb-8">
-                Chris Evans, a passionate musician and community leader, founded this organization after his own experience of losing his parents at 13 and being raised by his struggling grandmother. 
+                Chris Evans, a passionate musician and community leader, founded this organization after his own experience of losing his parents at 13 and being raised by his struggling grandfather. 
                 That personal journey inspired him to help elders and orphans who face similar hardships today.
               </p>
               <p className="italic text-gray-600">"Every elder and orphan deserves to be seen, heard, and loved in their golden years."</p>
