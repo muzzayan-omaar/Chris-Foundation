@@ -38,22 +38,22 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
+        <div className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-700">
           <Link to="/" className={`relative py-1 hover:text-accent transition-colors ${isActive('/') ? 'text-accent' : ''}`}>
             Home
-            {isActive('/') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
+            {isActive('/') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent rounded"></div>}
           </Link>
           <Link to="/about" className={`relative py-1 hover:text-accent transition-colors ${isActive('/about') ? 'text-accent' : ''}`}>
             Our Mission
-            {isActive('/about') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
+            {isActive('/about') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent rounded"></div>}
           </Link>
           <Link to="/programs" className={`relative py-1 hover:text-accent transition-colors ${isActive('/programs') ? 'text-accent' : ''}`}>
             Our Programs
-            {isActive('/programs') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
+            {isActive('/programs') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent rounded"></div>}
           </Link>
           <Link to="/blog" className={`relative py-1 hover:text-accent transition-colors ${isActive('/blog') ? 'text-accent' : ''}`}>
             Our Stories
-            {isActive('/blog') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></div>}
+            {isActive('/blog') && <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent rounded"></div>}
           </Link>
 
           {/* Explore Dropdown */}
@@ -64,7 +64,7 @@ const Navbar = () => {
           >
             <button className="flex items-center gap-1 hover:text-accent transition-colors py-2">
               Explore 
-              <ChevronDown size={16} />
+              <ChevronDown size={16} className="transition-transform group-hover:rotate-180" />
             </button>
 
             <AnimatePresence>
@@ -99,7 +99,7 @@ const Navbar = () => {
           >
             <button className="flex items-center gap-1 hover:text-accent transition-colors py-2">
               How to Support 
-              <ChevronDown size={16} />
+              <ChevronDown size={16} className="transition-transform group-hover:rotate-180" />
             </button>
 
             <AnimatePresence>
